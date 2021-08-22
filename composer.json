@@ -1,12 +1,13 @@
 {
     "name": "bee-b/zipcode",
-
     "description": "A worldwide address-by-zipcode searcher.",
-
-    "keywords": ["address", "zip code", "zip", "laravel"],
-
+    "keywords": [
+        "address",
+        "zip code",
+        "zip",
+        "laravel"
+    ],
     "license": "BSD-3-Clause",
-
     "authors": [
         {
             "name": "Antonio Carlos Ribeiro",
@@ -14,30 +15,25 @@
             "role": "Creator"
         }
     ],
-
     "require": {
-        "pragmarx/support": "0.9.0",
-        "guzzlehttp/guzzle": "~4|~5|~6|~7|~8",
+        "pragmarx/support": "^0.9.3",
+        "guzzlehttp/guzzle": "~4|~5|~6|~7",
         "illuminate/filesystem": "~4|~5|~6|~7|~8",
-        "laravel/helpers": "^1.1"
+        "laravel/helpers": "^1.4"
     },
-
     "require-dev": {
         "phpspec/phpspec": "2.0.*@dev"
     },
-
     "autoload": {
         "psr-4": {
             "PragmaRX\\ZipCode\\": "src/"
         }
     },
-
     "extra": {
         "component": "package",
         "branch-alias": {
             "dev-master": "1.6.x-dev"
         }
     },
-
     "minimum-stability": "dev"
 }
